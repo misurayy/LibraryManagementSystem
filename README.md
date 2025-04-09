@@ -20,3 +20,7 @@ It grants specific functions access rather than exposing everything publicly.
 
 It helps establish tightly-coupled interactions (like between Library and Book here) without making all data public.
 
+# How It Works
+The Book class defines bookName and price as private.
+
+It declares the book_price() method from Library as a friend, which allows book_price() to access and display book details.
