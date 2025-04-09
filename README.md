@@ -24,3 +24,10 @@ It helps establish tightly-coupled interactions (like between Library and Book h
 The Book class defines bookName and price as private.
 
 It declares the book_price() method from Library as a friend, which allows book_price() to access and display book details.
+
+# Key Concepts
+Friend Functions: Allow a non-member function or class to access private/protected members of another class.
+
+Encapsulation: Maintained by granting access only where needed.
+
+Object-Oriented Design: Shows collaboration between two classes with controlled access.
